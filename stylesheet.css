@@ -3,6 +3,7 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 /* Header by Annisa Ubay */
@@ -17,6 +18,7 @@ header {
 
 header .container{
   padding: 0 1.5rem;
+  width: 100%
 }
 
 .logo {
@@ -127,7 +129,6 @@ body {
 
 .sec2 .wrap .content-wrap .content {
   width: 17rem;
-  height: 18rem;
   text-align: center;
   margin: 1rem;
 }
@@ -218,4 +219,18 @@ footer {
 .selected {
   font-weight: bold;
   font-size: 20px;
+}
+
+/* responsive */
+.clear {
+  clear: left;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
 }
