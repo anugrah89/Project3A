@@ -9,7 +9,7 @@
     }
   }
 
-    /* tes Tambahkan CSS untuk tag <h1> didalam sec1 dan tag <h1> didalam sec2
+    /* tes Tambahkan CSS untuk tag <h1> didalam sec1 dan tag <h1> didalam sec2*/
    .sec1 .content .wrap h1 {
     font-size: 32px;
   }
