@@ -7,12 +7,12 @@
 
 /* Header by Annisa Ubay */
 header {
-  position: absolute;
+  position: fixed;
   height: 4rem;
   width: 100%;
   background-color: #F9F9F9;
   top: 0;
-  z-index: 2;
+  z-index: 10;
 }
 
 header .container{
@@ -104,7 +104,7 @@ body {
 }
 
 .sec2 .wrap {
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .sec2 .wrap h1 {
@@ -126,8 +126,8 @@ body {
 }
 
 .sec2 .wrap .content-wrap .content {
-  width: 18rem;
-  height: 19rem;
+  width: 17rem;
+  height: 18rem;
   text-align: center;
   margin: 1rem;
 }
@@ -136,6 +136,7 @@ body {
   width: 100%;
   height: auto;
 }
+
 
 .sec2 .wrap .content-wrap .content p {
   font-size: 0.8rem;
@@ -203,7 +204,7 @@ footer {
 }
 
 .footer-logo img {
-  width: 75%;
+  width: 85%;
 }
 
 .anggota {
