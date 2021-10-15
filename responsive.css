@@ -37,7 +37,6 @@
     /* Tambahkan CSS untuk top-wrapper */
   .sec1 {
     text-align: left;
-    padding-top: 130px;
   }
   /* Tambahkan CSS untuk tag <h1> didalam sec1 */
   .sec1 .content .wrap h1 {
