@@ -1,0 +1,63 @@
+/* Untuk Tablets */
+
+/* Tambahkan breakpoint max-width: 1000px */
+@media (max-width: 1000px) {
+    /* Tambahkan CSS untuk content */
+    .content {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+  }
+
+    /* tes Tambahkan CSS untuk tag <h1> didalam sec1 dan tag <h1> didalam sec2
+   .sec1 .content .wrap h1 {
+    font-size: 32px;
+  }
+
+  .sec2 .wrap h1 {
+    font-size: 20px;
+  }
+    */
+
+
+  /* Untuk Smartphones */
+
+/* Tambahkan breakpoint max-width: 670px */
+@media (max-width: 670px) {
+    /* Ubah width milik content ke 100% */
+    .content {
+      width: 100%;
+    }
+    
+    /* Ubah text-align property milik <footer> */
+    footer {
+      text-align: center;
+    }
+
+    /* Tambahkan CSS untuk top-wrapper */
+  .sec1 {
+    text-align: left;
+    padding-top: 130px;
+  }
+  /* Tambahkan CSS untuk tag <h1> didalam sec1 */
+  .sec1 .content .wrap h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  /* Tambahkan CSS untuk tag <p> didalam sec1 */
+  .sec1 .content .wrap p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    display: block;
+  }
+ }
