@@ -193,3 +193,28 @@ body {
 
 
 /* Footer  by Aris */
+footer {
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+}
+
+.footer-logo img {
+  width: 75%;
+}
+
+.anggota {
+  float: right;
+}
+
+.anggota li {
+  list-style: none;
+}
+
+.selected {
+  font-weight: bold;
+  font-size: 20px;
+}
