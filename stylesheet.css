@@ -51,6 +51,15 @@ header .container{
   color: #D35054;
   transition: all ease 0.3s;
 }
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
 /* End of Header */
 
 
@@ -224,13 +233,4 @@ footer {
 /* responsive */
 .clear {
   clear: left;
-}
-
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  /* Gantikan property display ke none */
-  display: none;
 }
